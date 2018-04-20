@@ -1,0 +1,218 @@
+table.tic td {
+    border: 2px solid #008000;
+	padding: 20px;
+  width: 80px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	}
+
+  table.tic tr {
+    height: 120px;
+  }
+
+  p {
+    color: white;
+  }
+
+header {
+	background-size: 100%;
+	background-color:#4d004d;
+    padding: 1em;
+    color: white;
+    clear: left;
+    text-align: center;
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+div.top{
+  width: 100%;
+  align-content: center;
+  border-radius: 4px;
+}
+h2 {
+    color: #e8915f;
+    line-height: 2em;
+}
+
+footer {
+	background-size: 100%;
+    padding: 1em;
+    color: white;
+    clear: left;
+    text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+li   {
+	line-height:150%;
+
+}
+
+p {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #e50b28;
+  font-size: 18px;
+}
+
+body{
+	background-image:url("back.jpg");
+       -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.img1 {
+  width: 65px;
+  align: middle;
+}
+
+a.top_link:link, a.top_link:visited {
+  background-color: black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+
+a.top_link:hover, a.top_link:active {
+  background-color: white;
+  color: black;
+  border:1px;
+  border-radius: 6px;
+  border-color: black;
+  font-size: 22px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.columnL {
+    float: left;
+    width: 40.00%;
+    padding: 10px;
+}
+
+.columnC {
+    float: left;
+    width: 40.00%;
+    padding: 10px;
+    border-left: 1px white;
+     color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      margin-left: 30px;
+      border-width: 1px;
+      border-color: white;
+}
+
+.columnR {
+    float: left;
+    width: 10.00%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+td {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.label2 {
+  background-color: white;
+  color: black;
+  width: 40px;
+  text-align: center;
+  padding-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+form {border: 3px solid #f1f1f1;width: 40.00%;}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 9px 9px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 5px 9px;
+    background-color: #39b4e5;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 14px 0 7px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 14px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 10px;
+    color: black;
+    font-size: 12px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+
+    }
+}
